@@ -1,0 +1,38 @@
+body{
+    margin: o;
+    padding: 0;
+}
+#redbox{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+#greenbox{
+    background: color#00ff00;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+#bluebox{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    z-index: -3;
+}
